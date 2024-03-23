@@ -16,6 +16,16 @@ class Dog
         $this->image = $image;
         $this->breed = $breed;
     }
+
+    /**
+     * Get the image of the dog.
+     *
+     * @return string The image of the dog.
+     */
+    public function getImagePath()
+    {
+        return $this->image;
+    }
 }
 
 /**
@@ -33,5 +43,15 @@ class Cat
     {
         $this->image = $image;
         $this->breed = $breed;
+    }
+
+    /**
+     * Get the image of the cat.
+     *
+     * @return string The image of the cat.
+     */
+    public function getImagePath()
+    {
+        return $this->image;
     }
 }
